@@ -1,0 +1,25 @@
+.integrantes {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  color: transparent;
+  margin: auto;
+  font-size: 100px;
+
+  background-position: center;
+  background-size: cover;
+  -webkit-background-clip: text;
+
+  -webkit-text-stroke: 1.5px rgb(0, 0, 0);
+  background-image: url(https://img.freepik.com/foto-gratis/colores-degradados-rojo-verde_23-2147734170.jpg?w=2000);
+}
+
+.integrantes::before {
+  content: "Creado por: Johana Otalvaro - Andres Perez";
+  text-decoration: underline;
+}
